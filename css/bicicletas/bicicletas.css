@@ -8,6 +8,7 @@
   gap: 40px;
   padding-top: 60px;
   padding-bottom: 60px;
+  background: url("../../img/dec/top-right.svg") no-repeat top right;
 }
 
 .bicicletas-imagem {
@@ -84,6 +85,18 @@
     gap: 20px;
     padding-top: 40px;
     padding-bottom: 40px;
+  }
+
+  .bicicletas-conteudo ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 40px;
+  }
+
+  .bicicletas-conteudo a {
+    display: grid;
+    place-self: start;
+    grid-row: 4;
   }
 }
 
